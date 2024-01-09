@@ -21,6 +21,7 @@ const BasicThreadView: React.FC = () => {
             <h3>{"Inspirational Quotes"}</h3>
             <h4>{"Thread started by Aiken"}</h4>
             <BasicCommentList styled={false} />
+            {/* the Link to / sends you back to localhost:3000, then 'Back to threads is the text*/}
             <Link to="/">{`<- Back to threads`}</Link>
             <br />
             <br />

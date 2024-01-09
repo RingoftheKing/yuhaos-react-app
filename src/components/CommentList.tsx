@@ -27,6 +27,11 @@ const BasicCommentList: React.FC<Props> = ({ styled }: Props) => {
             author: "Duuet",
             timestamp: new Date(2022, 11, 2, 10, 30, 0),
         },
+        {
+            body: "As long as I'm still breathing, it's not over \n" + " ~ Tenzin",
+            author: "Yuhao",
+            timestamp: new Date(1969, 6, 9, 4, 2, 0),
+        },
     ];
 
     return (
